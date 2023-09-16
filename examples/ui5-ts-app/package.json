@@ -11,6 +11,7 @@
     "//test": "run-s test:*",
     "test": "wdio run wdio-ui5.conf.ts",
     "test:browserstack": "wdio run test/e2e/cloud-services/browserstack.conf.ts",
+    "test:browserstack": "wdio run test/e2e/cloud-services/browserstack.conf.ts",
     "test:authentication": "run-s authentication:*",
     "//test-h:authentication": "run-s \"authentication:* -- --headless\"",
     "test:authentication:bstack": "BROWSERSTACK=true run-s authentication:*",
